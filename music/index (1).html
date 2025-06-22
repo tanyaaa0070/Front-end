@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Music Player</title>
+    <link rel="stylesheet" href="./styles (1).css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+</head>
+<body>
+    <button id="darkModeToggle" class="btn">🌙</button>
+    <div class="title">Music Player</div>
+    <div class="player">
+        <div class="song-options">
+            <button id="playSong1" class="btn">Play Song 1</button>
+            <button id="playSong2" class="btn">Play Song 2</button>
+            <input type="file" id="fileInput" accept="audio/*">
+        </div>
+        <audio id="audio" controls>
+          
+        </audio>
+        <div class="controls">
+            <button id="playPauseBtn" class="btn">Play</button>
+            <button id="stopBtn" class="btn">Stop</button>
+            <div class="time">
+                <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+            </div>
+        </div>
+    </div>
+    <script src="./script (1).js"></script>
+</body>
+</html>
+
