@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.clock {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.date {
+  margin-bottom: 20px;
+}
+
+.alarm-form input, .alarm-form select {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1em;
+}
+
+#alarm-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#alarm-list li {
+  margin: 10px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
