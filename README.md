@@ -1,13 +1,5 @@
-**📌 CodeAlpha Internship Tasks – Web Projects**
+**📌  Web Projects**
 
-This repository contains the tasks completed as part of the CodeAlpha Web Development Internship, developed using HTML, CSS, and JavaScript. The projects demonstrate fundamental concepts of UI/UX and client-side scripting.
-
-**🛠 Tech Stack**
-HTML5
-
-CSS3
-
-JavaScript (ES6+)
 
 **✅ Projects Overview**
 1. 🧮 Calculator
