@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./script.js">
+</head>
+<body>
+    
+
+<div id="scene-container">
+  <figure id="scene">
+    <figure class="cube object-cube">
+      <div class="sphere-details">
+        <div class="pokeball__bg"></div>
+        <div class="pokeball__red"></div>
+        <div class="pokeball__white"></div>
+        <div class="pokeball__button"></div>
+      </div>
+      <div class="sphere-lighting">
+        <div class="lighting-bg"></div>
+        <div class="lighting lighting-50"></div> 
+        <div class="lighting spotlight"></div> 
+      </div>
+    </figure>
+    <figure id="light"></figure>
+    <figure id="shadow">
+      <figure class="cube">
+        <div class="face">
+        </div>
+      </figure>
+    </figure>
+  </figure>
+</div>
+<figure id="controls">
+  <label for="scene-x">Scene X-Axis</label>
+  <input type="range" id="scene-x" class="slider" style="--timeline:--_sx" min="-90" max="0" value="-30">      
+  <span class="slider-value" id="scene-x-value"></span>
+  <label for="scene-y">Scene Y-Axis</label>
+  <input type="range" id="scene-y" class="slider" style="--timeline:--_sy" min="-180" max="180" value="45">      
+  <span class="slider-value" id="scene-y-value"></span>
+  <label for="light-x">Light X-Axis</label>
+  <input type="range" id="light-x" class="slider" style="--timeline:--_lx" min="0" max="180" value="60">      
+  <span class="slider-value" id="light-x-value"></span>
+  <label for="light-y">Light Y-Axis</label>
+  <input type="range" id="light-y" class="slider" style="--timeline:--_ly" min="-90" max="90" value="0">      
+  <span class="slider-value" id="light-y-value"></span>
+  <label for="object-x">Object X-Axis</label>
+  <input type="range" id="object-x" class="slider" style="--timeline:--_ox" min="0" max="360" value="0">      
+  <span class="slider-value" id="object-x-value"></span>
+  <label for="object-y">Object Y-Axis</label>
+  <input type="range" id="object-y" class="slider" style="--timeline:--_oy" min="0" max="360" value="0">      
+  <span class="slider-value" id="object-y-value"></span>
+  <label for="object-z">Object Z-Axis</label>
+  <input type="range" id="object-z" class="slider" style="--timeline:--_oz" min="0" max="360" value="0">      
+  <span class="slider-value" id="object-z-value"></span>
+  <label for="elevation">Elevation</label>
+  <input type="range" id="elevation" class="slider" style="--timeline:--_el" min="0" max="200" value="0">      
+  <span class="slider-value" id="elevation-value"></span>
+  <p>If you're using a browser that doesn't support scroll-based animations!</p>
+</figure>
+</body>
+</html>

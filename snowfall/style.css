@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: #123;
+  color: #fff;
+}
+#hiddenSquiggle {
+  opacity: 0;
+}
+
+label{
+  display: flex; 
+  gap: 0.4em;
+  align-items: center; 
+  font-size: 1.2em;
+background-color: #234;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  
+}
+label:has(:checked){
+  background-color: #345;
+
+}
+body:has(:checked) #hiddenSquiggle {
+  opacity: 1;
+}
+svg {
+  max-height: 80vmin;
+  max-width: 80vmin;
+
+}
